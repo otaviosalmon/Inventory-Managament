@@ -1,0 +1,17 @@
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\InventoryManagamentSystem.exe
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\InventoryManagamentSystem.deps.json
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\InventoryManagamentSystem.runtimeconfig.json
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\InventoryManagamentSystem.dll
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\InventoryManagamentSystem.pdb
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.LoginForm.resources
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.Properties.Resources.resources
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.csproj.GenerateResource.cache
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.AssemblyInfoInputs.cache
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.AssemblyInfo.cs
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.csproj.CoreCompileInputs.cache
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.dll
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\refint\InventoryManagamentSystem.dll
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.pdb
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagamentSystem.genruntimeconfig.cache
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\ref\InventoryManagamentSystem.dll
