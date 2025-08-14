@@ -28,7 +28,7 @@ namespace InventoryManagementSystem
         {
             int i = 1;
             dgvCategory.Rows.Clear();
-            cm = new SqlCommand("SELECT * FROM tb_Categories");
+            cm = new SqlCommand("SELECT * FROM tb_Categories", con);
             con.Open();
             SqlDataReader dr = cm.ExecuteReader();
             while (dr.Read())
@@ -57,11 +57,13 @@ namespace InventoryManagementSystem
             if (columnName == "Edit_Category")
             {
                 CategoryModuleForm categoryModuleForm = new CategoryModuleForm();
-                categoryModuleForm.txtCategoryName.Text = dgvCategory.Rows[e.RowIndex].Cells[1].Value.ToString();
+                categoryModuleForm.txtCategoryName.Text = dgvCategory.Rows[e.RowIndex].Cells[2].Value.ToString();
+                categoryModuleForm.categoryId = dgvCategory.Rows[e.RowIndex].Cells[1].Value.ToString();
                 categoryModuleForm.saveCategoryButton.Enabled = false;
                 categoryModuleForm.updateCategoryButton.Enabled = true;
                 categoryModuleForm.clearCategoryButton.Enabled = true;
                 categoryModuleForm.ShowDialog();
+                LoadCategories();
             }
             else if (columnName == "Delete_Category")
             {
@@ -69,7 +71,7 @@ namespace InventoryManagementSystem
                 {
                     con.Open();
                     cm = new SqlCommand("DELETE FROM tb_Categories WHERE category_id = @category_id", con);
-                    cm.Parameters.AddWithValue("@customer_id", dgvCategory.Rows[e.RowIndex].Cells[1].Value.ToString());
+                    cm.Parameters.AddWithValue("@category_id", dgvCategory.Rows[e.RowIndex].Cells[1].Value.ToString());
                     cm.ExecuteNonQuery();
                     con.Close();
                     MessageBox.Show("Category successfully deleted!");

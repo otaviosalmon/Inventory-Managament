@@ -15,6 +15,7 @@ namespace InventoryManagementSystem
     {
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Otavio\Documents\dbIMS.mdf;Integrated Security=True;Connect Timeout=30;");
         SqlCommand cm = new SqlCommand();
+        public string categoryId;
         public CategoryModuleForm()
         {
             InitializeComponent();
@@ -56,10 +57,11 @@ namespace InventoryManagementSystem
             }
             try
             {
-                if (MessageBox.Show("Are you sure you want to update this category?", "Update Record.", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == (DialogResult.Yes)
+                if (MessageBox.Show("Are you sure you want to update this category?", "Update Record.", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == (DialogResult.Yes))
                 {
-                    cm = new SqlCommand("UPDATE tb_Categories SET category_name = @category_name WHERE category_id = @category_id");
+                    cm = new SqlCommand("UPDATE tb_Categories SET category_name = @category_name WHERE category_id = @category_id", con);
                     cm.Parameters.AddWithValue("@category_name", txtCategoryName.Text);
+                    cm.Parameters.AddWithValue("@category_id", categoryId);
                     con.Open();
                     cm.ExecuteNonQuery();
                     con.Close();

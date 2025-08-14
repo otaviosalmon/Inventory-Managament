@@ -162,6 +162,7 @@
             CategoriesButton.SizeMode = PictureBoxSizeMode.Zoom;
             CategoriesButton.TabIndex = 13;
             CategoriesButton.TabStop = false;
+            CategoriesButton.Click += CategoriesButton_Click;
             // 
             // CustomersButton
             // 

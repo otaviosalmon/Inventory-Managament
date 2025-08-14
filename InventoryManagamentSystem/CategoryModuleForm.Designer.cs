@@ -60,6 +60,7 @@
             closeBox.SizeMode = PictureBoxSizeMode.Zoom;
             closeBox.TabIndex = 12;
             closeBox.TabStop = false;
+            closeBox.Click += CloseBox_Click;
             // 
             // categoryModuleLabel
             // 
@@ -84,6 +85,7 @@
             clearCategoryButton.TabIndex = 29;
             clearCategoryButton.Text = "Clear";
             clearCategoryButton.UseVisualStyleBackColor = false;
+            clearCategoryButton.Click += Category_Clear_Button_Click;
             // 
             // updateCategoryButton
             // 
@@ -97,6 +99,7 @@
             updateCategoryButton.TabIndex = 28;
             updateCategoryButton.Text = "Update";
             updateCategoryButton.UseVisualStyleBackColor = false;
+            updateCategoryButton.Click += Category_Update_Button_Click;
             // 
             // saveCategoryButton
             // 
@@ -110,6 +113,7 @@
             saveCategoryButton.TabIndex = 27;
             saveCategoryButton.Text = "Save";
             saveCategoryButton.UseVisualStyleBackColor = false;
+            saveCategoryButton.Click += Category_Save_Button_Click;
             // 
             // txtCategoryName
             // 

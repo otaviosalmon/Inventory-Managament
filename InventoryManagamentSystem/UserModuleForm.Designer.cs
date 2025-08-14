@@ -142,7 +142,6 @@
             phoneLabel.Size = new Size(67, 21);
             phoneLabel.TabIndex = 7;
             phoneLabel.Text = "Phone:";
-            phoneLabel.Click += phoneLabel_Click;
             // 
             // saveButton
             // 
@@ -208,7 +207,7 @@
             Name = "UserModuleForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "UserModuleForm";
-            Load += UserModuleForm_Load;
+          
             userModulePanel.ResumeLayout(false);
             userModulePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)closeBox).EndInit();

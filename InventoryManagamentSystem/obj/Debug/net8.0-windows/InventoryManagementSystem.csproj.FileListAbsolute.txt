@@ -27,8 +27,6 @@ C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.csproj.AssemblyReference.cache
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\Inventor.EBF2E7CF.Up2Date
-C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CostumerForm.resources
-C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CostumerModuleForm.resources
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\Azure.Core.dll
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\Azure.Identity.dll
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
@@ -77,3 +75,6 @@ C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.sourcelink.json
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CategoriesForm.resources
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CategoryModuleForm.resources
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CustomerForm.resources
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CustomerModuleForm.resources
