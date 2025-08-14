@@ -38,7 +38,6 @@
             phoneLabel = new Label();
             txtName = new TextBox();
             nameLabel = new Label();
-            idLabel = new Label();
             userModulePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)closeBox).BeginInit();
             SuspendLayout();
@@ -63,7 +62,7 @@
             closeBox.SizeMode = PictureBoxSizeMode.Zoom;
             closeBox.TabIndex = 12;
             closeBox.TabStop = false;
-            closeBox.Click += closeBox_Click; 
+            closeBox.Click += closeBox_Click;
             // 
             // customerModuleLabel
             // 
@@ -82,13 +81,13 @@
             clearButton.FlatAppearance.BorderSize = 0;
             clearButton.Font = new Font("Century Gothic", 10.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             clearButton.ForeColor = Color.White;
-            clearButton.Location = new Point(451, 225);
+            clearButton.Location = new Point(448, 238);
             clearButton.Name = "clearButton";
             clearButton.Size = new Size(124, 52);
             clearButton.TabIndex = 22;
             clearButton.Text = "Clear";
             clearButton.UseVisualStyleBackColor = false;
-            clearButton.Click += Button_Clear_Click;
+            clearButton.Click += Customer_Button_Clear_Click;
             // 
             // updateButton
             // 
@@ -96,12 +95,13 @@
             updateButton.FlatAppearance.BorderSize = 0;
             updateButton.Font = new Font("Century Gothic", 10.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             updateButton.ForeColor = Color.White;
-            updateButton.Location = new Point(310, 225);
+            updateButton.Location = new Point(307, 238);
             updateButton.Name = "updateButton";
             updateButton.Size = new Size(124, 52);
             updateButton.TabIndex = 21;
             updateButton.Text = "Update";
             updateButton.UseVisualStyleBackColor = false;
+            updateButton.Click += Customer_Button_Update_Click;
             // 
             // saveButton
             // 
@@ -109,17 +109,17 @@
             saveButton.FlatAppearance.BorderSize = 0;
             saveButton.Font = new Font("Century Gothic", 10.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             saveButton.ForeColor = Color.White;
-            saveButton.Location = new Point(165, 225);
+            saveButton.Location = new Point(162, 238);
             saveButton.Name = "saveButton";
             saveButton.Size = new Size(124, 52);
             saveButton.TabIndex = 20;
             saveButton.Text = "Save";
             saveButton.UseVisualStyleBackColor = false;
-            saveButton.Click += ButtonSave_Click;
+            saveButton.Click += Customer_ButtonSave_Click;
             // 
             // txtPhone
             // 
-            txtPhone.Location = new Point(163, 129);
+            txtPhone.Location = new Point(160, 142);
             txtPhone.Name = "txtPhone";
             txtPhone.Size = new Size(443, 29);
             txtPhone.TabIndex = 19;
@@ -127,7 +127,7 @@
             // phoneLabel
             // 
             phoneLabel.AutoSize = true;
-            phoneLabel.Location = new Point(67, 132);
+            phoneLabel.Location = new Point(64, 145);
             phoneLabel.Name = "phoneLabel";
             phoneLabel.Size = new Size(57, 21);
             phoneLabel.TabIndex = 18;
@@ -135,7 +135,7 @@
             // 
             // txtName
             // 
-            txtName.Location = new Point(163, 71);
+            txtName.Location = new Point(160, 84);
             txtName.Name = "txtName";
             txtName.Size = new Size(443, 29);
             txtName.TabIndex = 15;
@@ -143,21 +143,11 @@
             // nameLabel
             // 
             nameLabel.AutoSize = true;
-            nameLabel.Location = new Point(77, 74);
+            nameLabel.Location = new Point(74, 87);
             nameLabel.Name = "nameLabel";
             nameLabel.Size = new Size(55, 21);
             nameLabel.TabIndex = 14;
             nameLabel.Text = "Name:";
-            // 
-            // idLabel
-            // 
-            idLabel.AutoSize = true;
-            idLabel.Location = new Point(227, 180);
-            idLabel.Name = "idLabel";
-            idLabel.Size = new Size(98, 21);
-            idLabel.TabIndex = 12;
-            idLabel.Text = "Customer id:";
-            idLabel.Click += usernameLabel_Click;
             // 
             // CostumerModuleForm
             // 
@@ -171,7 +161,6 @@
             Controls.Add(phoneLabel);
             Controls.Add(txtName);
             Controls.Add(nameLabel);
-            Controls.Add(idLabel);
             Controls.Add(userModulePanel);
             FormBorderStyle = FormBorderStyle.None;
             Name = "CostumerModuleForm";
@@ -182,6 +171,11 @@
             ((System.ComponentModel.ISupportInitialize)closeBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void UpdateButton_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void ClearButton_Click(object sender, EventArgs e)
@@ -201,6 +195,5 @@
         private Label phoneLabel;
         public TextBox txtName;
         private Label nameLabel;
-        private Label idLabel;
     }
 }

@@ -63,6 +63,7 @@ namespace InventoryManagementSystem
             {
                 UserModuleForm userModule = new UserModuleForm();
                 userModule.txtUserName.Text = dgvUser.Rows[e.RowIndex].Cells[1].Value.ToString();
+                userModule.txtUserName.ReadOnly = true;
                 userModule.txtFullName.Text = dgvUser.Rows[e.RowIndex].Cells[2].Value.ToString();
                 userModule.txtPassword.Text = dgvUser.Rows[e.RowIndex].Cells[3].Value.ToString();
                 userModule.txtPhone.Text = dgvUser.Rows[e.RowIndex].Cells[4].Value.ToString();
@@ -70,6 +71,7 @@ namespace InventoryManagementSystem
                 userModule.updateButton.Enabled = true;
                 userModule.clearButton.Enabled = true;
                 userModule.ShowDialog();
+                LoadUser();
             }
             else if (columnName == "Delete")
             {
@@ -81,6 +83,7 @@ namespace InventoryManagementSystem
                     cm.ExecuteNonQuery();
                     con.Close();
                     MessageBox.Show("User has been successfully deleted");
+                    LoadUser();
 
 
                 }

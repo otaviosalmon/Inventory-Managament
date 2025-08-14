@@ -45,17 +45,17 @@
             BottomPanelCustomer = new Panel();
             AddCustomerButton = new CustomerButton();
             manageCustomersLabel = new Label();
-            dgvCustomer = new DataGridView();
+            dgvCostumer = new DataGridView();
             customer_Number = new DataGridViewTextBoxColumn();
             customer_id_Column = new DataGridViewTextBoxColumn();
             customer_name_Column = new DataGridViewTextBoxColumn();
             customer_phone_Column = new DataGridViewTextBoxColumn();
-            Edit_Costumer = new DataGridViewImageColumn();
-            Delete_Costumer = new DataGridViewImageColumn();
+            Edit_Customer = new DataGridViewImageColumn();
+            Delete_Customer = new DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)dgvUser).BeginInit();
             BottomPanelCustomer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)AddCustomerButton).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dgvCustomer).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvCostumer).BeginInit();
             SuspendLayout();
             // 
             // dgvUser
@@ -186,10 +186,10 @@
             manageCustomersLabel.TabIndex = 0;
             manageCustomersLabel.Text = "Manage Customers";
             // 
-            // dgvCustomer
+            // dgvCostumer
             // 
-            dgvCustomer.AllowUserToAddRows = false;
-            dgvCustomer.BackgroundColor = Color.White;
+            dgvCostumer.AllowUserToAddRows = false;
+            dgvCostumer.BackgroundColor = Color.White;
             dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = Color.FromArgb(0, 70, 160);
             dataGridViewCellStyle4.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -197,10 +197,10 @@
             dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.False;
-            dgvCustomer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            dgvCustomer.ColumnHeadersHeight = 30;
-            dgvCustomer.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dgvCustomer.Columns.AddRange(new DataGridViewColumn[] { customer_Number, customer_id_Column, customer_name_Column, customer_phone_Column, Edit_Costumer, Delete_Costumer });
+            dgvCostumer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dgvCostumer.ColumnHeadersHeight = 30;
+            dgvCostumer.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dgvCostumer.Columns.AddRange(new DataGridViewColumn[] { customer_Number, customer_id_Column, customer_name_Column, customer_phone_Column, Edit_Customer, Delete_Customer });
             dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = SystemColors.Window;
             dataGridViewCellStyle5.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -208,11 +208,11 @@
             dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = DataGridViewTriState.False;
-            dgvCustomer.DefaultCellStyle = dataGridViewCellStyle5;
-            dgvCustomer.Dock = DockStyle.Fill;
-            dgvCustomer.EnableHeadersVisualStyles = false;
-            dgvCustomer.Location = new Point(0, 0);
-            dgvCustomer.Name = "dgvCustomer";
+            dgvCostumer.DefaultCellStyle = dataGridViewCellStyle5;
+            dgvCostumer.Dock = DockStyle.Fill;
+            dgvCostumer.EnableHeadersVisualStyles = false;
+            dgvCostumer.Location = new Point(0, 0);
+            dgvCostumer.Name = "dgvCostumer";
             dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = SystemColors.ButtonShadow;
             dataGridViewCellStyle6.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -220,12 +220,12 @@
             dataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
-            dgvCustomer.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            dgvCustomer.RowHeadersWidth = 51;
-            dgvCustomer.Size = new Size(992, 424);
-            dgvCustomer.TabIndex = 4;
-            dgvCustomer.CellContentClick += dgvCustomer_CellContentClick;
-            dgvCustomer.CellFormatting += dgvCustomer_CellFormatting;
+            dgvCostumer.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dgvCostumer.RowHeadersWidth = 51;
+            dgvCostumer.Size = new Size(992, 424);
+            dgvCostumer.TabIndex = 4;
+            dgvCostumer.CellContentClick += dgvCustomer_CellContentClick;
+            dgvCostumer.CellFormatting += dgvCustomer_CellFormatting;
             // 
             // customer_Number
             // 
@@ -258,32 +258,32 @@
             customer_phone_Column.Name = "customer_phone_Column";
             customer_phone_Column.Width = 83;
             // 
-            // Edit_Costumer
+            // Edit_Customer
             // 
-            Edit_Costumer.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            Edit_Costumer.HeaderText = "";
-            Edit_Costumer.Image = Properties.Resources.Edit_Pencil;
-            Edit_Costumer.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            Edit_Costumer.MinimumWidth = 6;
-            Edit_Costumer.Name = "Edit_Costumer";
-            Edit_Costumer.Width = 6;
+            Edit_Customer.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Edit_Customer.HeaderText = "";
+            Edit_Customer.Image = Properties.Resources.Edit_Pencil;
+            Edit_Customer.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            Edit_Customer.MinimumWidth = 6;
+            Edit_Customer.Name = "Edit_Customer";
+            Edit_Customer.Width = 6;
             // 
-            // Delete_Costumer
+            // Delete_Customer
             // 
-            Delete_Costumer.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            Delete_Costumer.HeaderText = "";
-            Delete_Costumer.Image = Properties.Resources.Cancel;
-            Delete_Costumer.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            Delete_Costumer.MinimumWidth = 6;
-            Delete_Costumer.Name = "Delete_Costumer";
-            Delete_Costumer.Width = 6;
+            Delete_Customer.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Delete_Customer.HeaderText = "";
+            Delete_Customer.Image = Properties.Resources.Cancel;
+            Delete_Customer.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            Delete_Customer.MinimumWidth = 6;
+            Delete_Customer.Name = "Delete_Customer";
+            Delete_Customer.Width = 6;
             // 
             // CostumerForm
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(992, 482);
-            Controls.Add(dgvCustomer);
+            Controls.Add(dgvCostumer);
             Controls.Add(BottomPanelCustomer);
             Controls.Add(dgvUser);
             Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -296,7 +296,7 @@
             BottomPanelCustomer.ResumeLayout(false);
             BottomPanelCustomer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)AddCustomerButton).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvCustomer).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvCostumer).EndInit();
             ResumeLayout(false);
         }
 
@@ -313,12 +313,12 @@
         private Panel BottomPanelCustomer;
         private CustomerButton AddCustomerButton;
         private Label manageCustomersLabel;
-        private DataGridView dgvCustomer;
+        private DataGridView dgvCostumer;
         private DataGridViewTextBoxColumn customer_Number;
         private DataGridViewTextBoxColumn customer_id_Column;
         private DataGridViewTextBoxColumn customer_name_Column;
         private DataGridViewTextBoxColumn customer_phone_Column;
-        private DataGridViewImageColumn Edit_Costumer;
-        private DataGridViewImageColumn Delete_Costumer;
+        private DataGridViewImageColumn Edit_Customer;
+        private DataGridViewImageColumn Delete_Customer;
     }
 }

@@ -156,7 +156,7 @@
             saveButton.TabIndex = 9;
             saveButton.Text = "Save";
             saveButton.UseVisualStyleBackColor = false;
-            saveButton.Click += Button_Save_Click;
+            saveButton.Click += User_Button_Save_Click;
             // 
             // updateButton
             // 
@@ -170,6 +170,7 @@
             updateButton.TabIndex = 10;
             updateButton.Text = "Update";
             updateButton.UseVisualStyleBackColor = false;
+            updateButton.Click += User_Button_Update_Click;
             // 
             // clearButton
             // 
@@ -183,7 +184,7 @@
             clearButton.TabIndex = 11;
             clearButton.Text = "Clear";
             clearButton.UseVisualStyleBackColor = false;
-            clearButton.Click += Button_Clear_Click;
+            clearButton.Click += User_Button_Clear_Click;
             // 
             // UserModuleForm
             // 

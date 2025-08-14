@@ -16,6 +16,7 @@ namespace InventoryManagementSystem
 
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Otavio\Documents\dbIMS.mdf;Integrated Security=True;Connect Timeout=30;");
         SqlCommand cm = new SqlCommand();
+        public string customerId;
         public CostumerModuleForm()
         {
             InitializeComponent();
@@ -30,7 +31,7 @@ namespace InventoryManagementSystem
         {
             Close();
         }
-        private void ButtonSave_Click(object sender, EventArgs e)
+        private void Customer_ButtonSave_Click(object sender, EventArgs e)
         {
             if (txtName.Text == "" || txtPhone.Text == "")
             {
@@ -56,7 +57,7 @@ namespace InventoryManagementSystem
                 MessageBox.Show(ex.Message);
             }
         }
-        private void Button_Update_Click(object sender, EventArgs e)
+        private void Customer_Button_Update_Click(object sender, EventArgs e)
         {
             if (txtName.Text == "" || txtPhone.Text == "")
             {
@@ -65,14 +66,27 @@ namespace InventoryManagementSystem
             }
             try
             {
-                if (MessageBox.Show("Do you want to update this user?", "Update Record.", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Do you want to update this customer?", "Update Record.", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    cm = new SqlCommand("UPDATE");
+                    cm = new SqlCommand("UPDATE tb_Customers SET customer_name = @customer_name, customer_phone = @customer_phone WHERE customer_id = @customer_id" , con);
+                    cm.Parameters.AddWithValue("@customer_name", txtName.Text);
+                    cm.Parameters.AddWithValue("@customer_phone", txtPhone.Text);
+                    cm.Parameters.AddWithValue("@customer_id", customerId);
+                    con.Open();
+                    cm.ExecuteNonQuery();
+                    con.Close();
+
+                    MessageBox.Show("Customer updated successfully!");
+                    this.Dispose();
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
-        private void Button_Clear_Click(object sender, EventArgs e)
+        private void Customer_Button_Clear_Click(object sender, EventArgs e)
         {
             Clear();
         }

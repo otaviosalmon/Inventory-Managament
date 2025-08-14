@@ -18,21 +18,21 @@ namespace InventoryManagementSystem
         public CostumerForm()
         {
             InitializeComponent();
-            LoadCostumer();
+            LoadCustomer();
             AddCustomerButton.Normal = Properties.Resources.AddImage;
             AddCustomerButton.Hover = Properties.Resources.AddImageGray;
         }
-        public void LoadCostumer()
+        public void LoadCustomer()
         {
             int i = 1;
-            dgvCustomer.Rows.Clear();
+            dgvCostumer.Rows.Clear();
             cm = new SqlCommand("SELECT * FROM tb_Customers", con);
             con.Open();
             SqlDataReader dr = cm.ExecuteReader();
 
             while (dr.Read())
             {
-                dgvCustomer.Rows.Add(i++, dr["customer_id"].ToString(), dr["customer_name"].ToString(), dr["customer_phone"].ToString());
+                dgvCostumer.Rows.Add(i++, dr["customer_id"].ToString(), dr["customer_name"].ToString(), dr["customer_phone"].ToString());
             }
             dr.Close();
             con.Close();
@@ -44,34 +44,37 @@ namespace InventoryManagementSystem
             costumerModule.updateButton.Enabled = false;
             costumerModule.clearButton.Enabled = true;
             costumerModule.ShowDialog();
-            LoadCostumer();
+
+            LoadCustomer();
         }
         private void dgvCustomer_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            string columnName = dgvCustomer.Columns[e.ColumnIndex].Name;
+            string columnName = dgvCostumer.Columns[e.ColumnIndex].Name;
 
             if (e.RowIndex < 0) return;
 
-            if (columnName == "Edit_Costumer")
+            if (columnName == "Edit_Customer")
             {
                 CostumerModuleForm costumerModule = new CostumerModuleForm();
-                costumerModule.txtName.Text = dgvCustomer.Rows[e.RowIndex].Cells[2].Value.ToString();
-                costumerModule.txtPhone.Text = dgvCustomer.Rows[e.RowIndex].Cells[3].Value.ToString();
+                costumerModule.txtName.Text = dgvCostumer.Rows[e.RowIndex].Cells[2].Value.ToString();
+                costumerModule.txtPhone.Text = dgvCostumer.Rows[e.RowIndex].Cells[3].Value.ToString();
                 costumerModule.saveButton.Enabled = false;
                 costumerModule.updateButton.Enabled = true;
                 costumerModule.clearButton.Enabled = true;
                 costumerModule.ShowDialog();
+
             }
-            else if (columnName == "Delete_Costumer")
+            else if (columnName == "Delete_Customer")
             {
                 if (MessageBox.Show("Are you sure you want to delete this customer?", "Delete Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == (DialogResult.Yes))
                 {
                     con.Open();
                     cm = new SqlCommand("DELETE FROM tb_Customers WHERE customer_id = @customer_id", con);
-                    cm.Parameters.AddWithValue("@customer_id", dgvCustomer.Rows[e.RowIndex].Cells[1].Value.ToString());
+                    cm.Parameters.AddWithValue("@customer_id", dgvCostumer.Rows[e.RowIndex].Cells[1].Value.ToString());
                     cm.ExecuteNonQuery();
                     con.Close();
-                    MessageBox.Show("Customer successfully deleted!");
+                    MessageBox.Show("Costomer successfully deleted!");
+                    LoadCustomer();
                 }
             }
 

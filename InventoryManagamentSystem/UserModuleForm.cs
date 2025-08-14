@@ -20,20 +20,11 @@ namespace InventoryManagementSystem
             InitializeComponent();
         }
 
-        private void UserModuleForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void phoneLabel_Click(object sender, EventArgs e)
-        {
-
-        }
         private void closeBox_Click(object sender, EventArgs e)
         {
              Close();
         }
-        private void Button_Save_Click(object sender, EventArgs e)
+        private void User_Button_Save_Click(object sender, EventArgs e)
         {
             if (txtUserName.Text == "" || txtFullName.Text == "" || txtPassword.Text == "" || txtPhone.Text == "")
             {
@@ -62,7 +53,37 @@ namespace InventoryManagementSystem
             }
               
         }
-        private void Button_Clear_Click(object sender, EventArgs e)
+        private void User_Button_Update_Click(object sender, EventArgs e)
+        {
+            if (txtFullName.Text =="" || txtPhone.Text == "")
+            {
+                MessageBox.Show("Pleas fill in all spaces.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            try
+            {
+                if (MessageBox.Show("Do you want to update this user?", "Update record.", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) 
+                {
+                    cm = new SqlCommand("UPDATE tb_User SET fullname = @fullname, password = @password , phone = @phone WHERE username = @username", con);
+                    cm.Parameters.AddWithValue("@fullname", txtFullName.Text);
+                    cm.Parameters.AddWithValue("@password", txtPassword.Text);
+                    cm.Parameters.AddWithValue("@phone", txtPhone.Text);
+                    cm.Parameters.AddWithValue("@username", txtUserName.Text);
+                    con.Open();
+                    cm.ExecuteNonQuery();
+                    con.Close();
+
+                    MessageBox.Show("User updated successfully");
+                    this.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+        private void User_Button_Clear_Click(object sender, EventArgs e)
         {
             Clear();
         }
