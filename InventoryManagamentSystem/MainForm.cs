@@ -59,6 +59,10 @@ namespace InventoryManagementSystem
         {
             openChildForm(new CategoriesForm());
         }
+        private void ProductButton_Click(Object sender, EventArgs e)
+        {
+            openChildForm(new ProductForm());
+        }
 
         private void closeBox_Click(object sender, EventArgs e)
         {

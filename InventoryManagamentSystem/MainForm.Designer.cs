@@ -184,6 +184,7 @@
             ProductButton.SizeMode = PictureBoxSizeMode.Zoom;
             ProductButton.TabIndex = 0;
             ProductButton.TabStop = false;
+            ProductButton.Click += ProductButton_Click;
             // 
             // companyLabel_2
             // 

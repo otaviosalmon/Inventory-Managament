@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\productmoduleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\productmoduleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\productmoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\productmoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\usermoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\usermoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\categoriesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\categoriesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\categorymoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\categorymoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\categorymoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\categorymoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|c:\\users\\otavio\\source\\repos\\inventorymanagamentsystem\\inventorymanagamentsystem\\customermoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7998CED-EF3D-43C9-9038-55ECB07D64C1}|InventoryManagamentSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagamentsystem\\customermoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 195,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductModuleForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\ProductModuleForm.Designer.cs",
+              "RelativeDocumentMoniker": "InventoryManagamentSystem\\ProductModuleForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\ProductModuleForm.Designer.cs",
+              "RelativeToolTip": "InventoryManagamentSystem\\ProductModuleForm.Designer.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAUwG4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T21:39:08.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -42,66 +55,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerModuleForm.cs",
-              "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CustomerModuleForm.cs",
-              "RelativeDocumentMoniker": "InventoryManagamentSystem\\CustomerModuleForm.cs",
-              "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CustomerModuleForm.cs",
-              "RelativeToolTip": "InventoryManagamentSystem\\CustomerModuleForm.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserModuleForm.cs",
+              "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\UserModuleForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagamentSystem\\UserModuleForm.cs",
+              "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\UserModuleForm.cs",
+              "RelativeToolTip": "InventoryManagamentSystem\\UserModuleForm.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:45:57.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryModuleForm.cs",
-              "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CategoryModuleForm.cs",
-              "RelativeDocumentMoniker": "InventoryManagamentSystem\\CategoryModuleForm.cs",
-              "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CategoryModuleForm.cs",
-              "RelativeToolTip": "InventoryManagamentSystem\\CategoryModuleForm.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwD8AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:38:51.739Z",
+              "WhenOpened": "2025-08-15T21:26:23.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductModuleForm.cs",
+              "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\ProductModuleForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagamentSystem\\ProductModuleForm.cs",
+              "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\ProductModuleForm.cs",
+              "RelativeToolTip": "InventoryManagamentSystem\\ProductModuleForm.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T03:05:57.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\ProductForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagamentSystem\\ProductForm.cs",
+              "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\ProductForm.cs",
+              "RelativeToolTip": "InventoryManagamentSystem\\ProductForm.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAywDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T03:06:37.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CategoriesForm.cs",
               "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CategoriesForm.cs",
               "RelativeDocumentMoniker": "InventoryManagamentSystem\\CategoriesForm.cs",
               "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CategoriesForm.cs",
               "RelativeToolTip": "InventoryManagamentSystem\\CategoriesForm.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAADwv00AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:35:10.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryModuleForm.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CategoryModuleForm.cs",
-              "RelativeDocumentMoniker": "InventoryManagamentSystem\\CategoryModuleForm.cs",
-              "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CategoryModuleForm.cs [Projeto]",
-              "RelativeToolTip": "InventoryManagamentSystem\\CategoryModuleForm.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:38:42.61Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerForm.cs",
-              "DocumentMoniker": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CustomerForm.cs",
-              "RelativeDocumentMoniker": "InventoryManagamentSystem\\CustomerForm.cs",
-              "ToolTip": "C:\\Users\\Otavio\\source\\repos\\InventoryManagamentSystem\\InventoryManagamentSystem\\CustomerForm.cs",
-              "RelativeToolTip": "InventoryManagamentSystem\\CustomerForm.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAA2wD4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:35:52.096Z",
+              "WhenOpened": "2025-08-15T03:05:50.575Z",
               "EditorCaption": ""
             }
           ]

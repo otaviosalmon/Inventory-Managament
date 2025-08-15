@@ -39,11 +39,11 @@ namespace InventoryManagementSystem
         }
         private void AddCustomerButton_Click(object sender, EventArgs e)
         {
-            CustomerModuleForm costumerModule = new CustomerModuleForm();
-            costumerModule.saveButton.Enabled = true;
-            costumerModule.updateButton.Enabled = false;
-            costumerModule.clearButton.Enabled = true;
-            costumerModule.ShowDialog();
+            CustomerModuleForm customerModule = new CustomerModuleForm();
+            customerModule.saveButton.Enabled = true;
+            customerModule.updateButton.Enabled = false;
+            customerModule.clearButton.Enabled = true;
+            customerModule.ShowDialog();
 
             LoadCustomer();
         }

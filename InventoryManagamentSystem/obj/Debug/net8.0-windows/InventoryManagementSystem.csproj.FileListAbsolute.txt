@@ -78,3 +78,5 @@ C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CategoryModuleForm.resources
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CustomerForm.resources
 C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.CustomerModuleForm.resources
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.ProductForm.resources
+C:\Users\Otavio\source\repos\InventoryManagamentSystem\InventoryManagamentSystem\obj\Debug\net8.0-windows\InventoryManagementSystem.ProductModuleForm.resources
